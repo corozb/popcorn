@@ -4,10 +4,12 @@ import './App.css'
 import Banner from './components/Banner/Banner'
 import Row from './components/Row/Row'
 import request from './utils/request'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 	return (
 		<div className='app'>
+			<Navbar />
 			<Banner />
 			<Row title='Trending Now' fetchUrl={request.trending} isLargeRow={true} />
 			<Row title='NEFTLFIX ORIGINALS' fetchUrl={request.netflixOriginals} />
