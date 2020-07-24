@@ -10,3 +10,16 @@ Steps Demo App:
 - Build the banner
 - Build the Nav Bar
 - Add trailer popups
+`npm install react-youtube`
+`npm install movie-trailer`
+- Deploy App to Firebase
+`firebase login` /Y/allow
+`firebase init`
+- Hosting: Configure and deploy Firebase Hosting sites
+- Use an existing project
+- Select a default Firebase project for this directory
+- build
+- Configure as a single-page app: y
+- npm run build
+- firebase deploy
+
