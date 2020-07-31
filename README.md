@@ -13,8 +13,8 @@ Steps Demo App:
 `npm install react-youtube`
 `npm install movie-trailer`
 - Deploy App to Firebase
-`firebase login` /Y/allow
-`firebase init`
+`firebase login` 
+`firebase init`/Y/allow
 - Hosting: Configure and deploy Firebase Hosting sites
 - Use an existing project
 - Select a default Firebase project for this directory
